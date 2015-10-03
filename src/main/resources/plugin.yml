@@ -1,0 +1,4 @@
+name: Advent
+version: 0.2
+main: net.caseif.advent.Advent
+author: caseif

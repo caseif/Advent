@@ -1,0 +1,262 @@
+# ######################## #
+# # Advent Configuration # #
+# ######################## #
+
+# For your convenience (and admittedly mine), I've included some preset items for you.
+# RANDOM_DISC will give a random music disc to each player. The quantity will always be 1.
+# SANTA_SUIT will give players dyed leather armor. It's pretty chill (PUNPUNPUN).
+# FESTIVE_WOOL will give players red and lime green wool. You may set the quantity of each stack.
+# COOKIES_AND_MILK will give players cookies and milk. You may set the quantity of cookies as usual,
+# and the quantity of milk with the key "milkquantity".
+# Additionally, multiple gifts may be set for Christmas Day by defining each under a key beginning with "xmas".
+# Happy holidays!
+
+# December 1
+1:
+    # may be an item name or ID
+    item: APPLE
+    # self-explanatory
+    quantity: 5
+    # damage value (applies to weapons, wool, wood, etc.)
+    data: 0
+    # leave blank for none
+    displayname:
+    # lore must be a list
+    lore:
+    # only applies to armor; must be RGB hex (i.e. RRGGBB)
+    armorcolor:
+    # only applies to skulls
+    skullowner:
+2:
+    item: MUSHROOM_SOUP
+    quantity: 2
+    data: 0
+    displayname:
+    lore:
+    armorcolor:
+    skullowner:
+3:
+    item: OBSIDIAN
+    quantity: 8
+    data: 0
+    displayname:
+    lore:
+    armorcolor:
+    skullowner:
+4:
+    item: SMOOTH_BRICK
+    quantity: 32
+    data: 0
+    displayname:
+    lore:
+    armorcolor:
+    skullowner:
+5:
+    item: POTATO_ITEM
+    quantity: 8
+    data: 0
+    displayname:
+    lore:
+    armorcolor:
+    skullowner:
+6:
+    item: BRICK
+    quantity: 64
+    data: 0
+    displayname:
+    lore:
+    armorcolor:
+    skullowner:
+7:
+    item: ENDER_STONE
+    quantity: 64
+    data: 0
+    displayname:
+    lore:
+    armorcolor:
+    skullowner:
+8:
+    item: GOLD_INGOT
+    quantity: 4
+    data: 0
+    displayname:
+    lore:
+    armorcolor:
+    skullowner:
+9:
+    item: SNOW_BALL
+    quantity: 64
+    data: 0
+    displayname:
+    lore:
+    armorcolor:
+    skullowner:
+10:
+    item: ICE
+    quantity: 32
+    data: 0
+    displayname:
+    lore:
+    armorcolor:
+    skullowner:
+11:
+    item: SPONGE
+    quantity: 16
+    data: 0
+    displayname:
+    lore:
+    armorcolor:
+    skullowner:
+12:
+    item: MOSSY_COBBLESTONE
+    quantity: 64
+    data: 0
+    displayname:
+    lore:
+    armorcolor:
+    skullowner:
+13:
+    item: CARROT_ITEM
+    quantity: 16
+    data: 0
+    displayname:
+    lore:
+    armorcolor:
+    skullowner:
+14:
+    item: DIAMOND
+    quantity: 1
+    data: 0
+    displayname:
+    lore:
+    armorcolor:
+    skullowner:
+15:
+    item: ENDER_PEARL
+    quantity: 16
+    data: 0
+    displayname:
+    lore:
+    armorcolor:
+    skullowner:
+16:
+    item: RANDOM_DISC
+    quantity: 1
+    data: 0
+    displayname:
+    lore:
+    armorcolor:
+    skullowner:
+17:
+    item: CAKE
+    quantity: 2
+    data: 0
+    displayname:
+    lore:
+    armorcolor:
+    skullowner:
+18:
+    item: GOLD_INGOT
+    quantity: 16
+    data: 0
+    displayname:
+    lore:
+    armorcolor:
+    skullowner:
+19:
+    item: SNOW
+    quantity: 64
+    data: 0
+    displayname:
+    lore:
+    armorcolor:
+    skullowner:
+20:
+    item: GLOWSTONE
+    quantity: 32
+    data: 0
+    displayname:
+    lore:
+    armorcolor:
+    skullowner:
+21:
+    item: ANVIL
+    quantity: 1
+    data: 0
+    displayname:
+    lore:
+    armorcolor:
+    skullowner:
+22:
+    item: SANTA_SUIT
+    quantity: 
+    data: 0
+    displayname:
+    lore:
+    armorcolor:
+    skullowner:
+23:
+    item: FESTIVE_WOOL
+    quantity: 64
+    data: 0
+    displayname:
+    lore:
+    armorcolor:
+    skullowner:
+24:
+    item: COOKIES_AND_MILK
+    quantity: 16
+    milkquantity: 3
+    data: 0
+    displayname:
+    lore:
+    armorcolor:
+    skullowner:
+xmas1:
+    item: DIAMOND
+    quantity: 3
+    data: 0
+    displayname:
+    lore:
+    armorcolor:
+    skullowner:
+xmas2:
+    item: EMERALD
+    quantity: 1
+    data: 0
+    displayname:
+    lore:
+    armorcolor:
+    skullowner:
+xmas3:
+    item: CAKE
+    quantity: 4
+    data: 0
+    displayname:
+    lore:
+    armorcolor:
+    skullowner:
+xmas4:
+    item: GOLD_INGOT
+    quantity: 8
+    data: 0
+    displayname:
+    lore:
+    armorcolor:
+    skullowner:
+xmas5:
+    item: GOLDEN_APPLE
+    quantity: 3
+    data: 0
+    displayname:
+    lore:
+    armorcolor:
+    skullowner:
+xmas6:
+    item: COOKIE
+    quantity: 32
+    data: 0
+    displayname:
+    lore:
+    armorcolor:
+    skullowner:
